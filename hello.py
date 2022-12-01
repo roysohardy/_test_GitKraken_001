@@ -1,8 +1,5 @@
-x = 4
-y = 5
-if y > x:
-    print("y is larger than x, no heys!")
-else:
-    print("x is larger than y, you can hey now!")
+squares = []
+for i in range(10):
+    squares.append(i*i)
 
-print('Hey, world!')
+print(squares)
